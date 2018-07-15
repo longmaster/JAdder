@@ -1,0 +1,49 @@
+﻿
+@model List<Jobadder.Models.Job>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <hr>
+
+    <div class="row">
+        <div class="panel panel-primary filterable">
+            <div class="panel-heading">
+                <h3 class="panel-title">Candidate Matching</h3>
+                <div class="pull-right">
+      
+                </div>
+            </div>
+            <table class="table">
+
+                <thead>
+                    <tr class="filters">
+                        <th>#</th>
+                        <th><input type="text" class="form-control" placeholder="Job"></th>
+                        <th><input type="text" class="form-control" placeholder="Best Candidate" ></th>
+                        <th><input type="text" class="form-control" placeholder="Job Skills" ></th>
+
+                        <th><input type="text" class="form-control" placeholder="Candidate Skills" ></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var job in Model)
+                    {
+
+
+                        <tr>
+                            <td>@(Model.IndexOf(job) + 1)</td>
+                            <td>@job.name</td>
+                            <td>@job.qualifiedCandidate.name</td>
+                            <td>@job.skills</td>
+                            <td>@job.qualifiedCandidate.SkillTags</td>
+                        </tr>
+
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
