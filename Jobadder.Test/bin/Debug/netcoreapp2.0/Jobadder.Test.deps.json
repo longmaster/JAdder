@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "7c742f813491711502699ac23050a952ed2c6653"
+    "signature": "96408509fbb9375bed5dcdd2894b11fce3716f75"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,8 +11,11 @@
           "Jobadder": "1.0.0",
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "Moq": "4.9.0",
-          "xunit": "2.3.1",
-          "xunit.runner.visualstudio": "2.4.0"
+          "xunit": "2.2.0",
+          "xunit.MSBuild": "2.0.0",
+          "xunit.abstractions": "2.0.2",
+          "xunit.core": "2.2.0",
+          "xunit.runner.visualstudio": "2.2.0"
         },
         "runtime": {
           "Jobadder.Test.dll": {}
@@ -4432,61 +4435,67 @@
           }
         }
       },
-      "xunit/2.3.1": {
+      "xunit/2.2.0": {
         "dependencies": {
-          "xunit.analyzers": "0.7.0",
-          "xunit.assert": "2.3.1",
-          "xunit.core": "2.3.1"
+          "xunit.assert": "2.2.0",
+          "xunit.core": "2.2.0"
         }
       },
-      "xunit.abstractions/2.0.1": {
+      "xunit.abstractions/2.0.2": {
         "runtime": {
-          "lib/netstandard1.0/xunit.abstractions.dll": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
         }
       },
-      "xunit.analyzers/0.7.0": {},
-      "xunit.assert/2.3.1": {
+      "xunit.assert/2.2.0": {
         "runtime": {
           "lib/netstandard1.1/xunit.assert.dll": {
-            "assemblyVersion": "2.3.1.3858",
-            "fileVersion": "2.3.1.3858"
+            "assemblyVersion": "2.2.0.3545",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
-      "xunit.core/2.3.1": {
+      "xunit.core/2.2.0": {
         "dependencies": {
-          "xunit.extensibility.core": "2.3.1",
-          "xunit.extensibility.execution": "2.3.1"
+          "xunit.extensibility.core": "2.2.0",
+          "xunit.extensibility.execution": "2.2.0"
         }
       },
-      "xunit.extensibility.core/2.3.1": {
+      "xunit.extensibility.core/2.2.0": {
         "dependencies": {
-          "xunit.abstractions": "2.0.1"
+          "xunit.abstractions": "2.0.2"
         },
         "runtime": {
           "lib/netstandard1.1/xunit.core.dll": {
-            "assemblyVersion": "2.3.1.3858",
-            "fileVersion": "2.3.1.3858"
+            "assemblyVersion": "2.2.0.3545",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
-      "xunit.extensibility.execution/2.3.1": {
+      "xunit.extensibility.execution/2.2.0": {
         "dependencies": {
-          "xunit.extensibility.core": "2.3.1"
+          "xunit.extensibility.core": "2.2.0"
         },
         "runtime": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {
-            "assemblyVersion": "2.3.1.3858",
-            "fileVersion": "2.3.1.3858"
+            "assemblyVersion": "2.2.0.3545",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
-      "xunit.runner.visualstudio/2.4.0": {
+      "xunit.MSBuild/2.0.0": {
         "dependencies": {
-          "Microsoft.NET.Test.Sdk": "15.5.0"
+          "xunit": "2.2.0"
+        }
+      },
+      "xunit.runner.visualstudio/2.2.0": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "2.0.3",
+          "Microsoft.Extensions.DependencyModel": "2.0.3",
+          "Microsoft.TestPlatform.ObjectModel": "15.5.0",
+          "System.Threading.ThreadPool": "4.3.0"
         }
       },
       "Jobadder/1.0.0": {
@@ -6749,61 +6758,61 @@
       "path": "windowsazure.storage/8.1.4",
       "hashPath": "windowsazure.storage.8.1.4.nupkg.sha512"
     },
-    "xunit/2.3.1": {
+    "xunit/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IWux0xXfZ/bC7SgooK5rmW5KwCwFg9GFslmPxA7+pJsT+2SRyhOfOgNUXDd7B09UN4f6kogRT2TqNi6gbWEspA==",
-      "path": "xunit/2.3.1",
-      "hashPath": "xunit.2.3.1.nupkg.sha512"
+      "sha512": "sha512-DoB9o+x3erv1DGP+pSvrIC1pWg+23LeeG8nOGVldoF+qeWNqQbabc5jLfUWW4zLOsNZfvgHcmJIKuRcZMgoV+w==",
+      "path": "xunit/2.2.0",
+      "hashPath": "xunit.2.2.0.nupkg.sha512"
     },
-    "xunit.abstractions/2.0.1": {
+    "xunit.abstractions/2.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bDm/zdG5rnRDsobKuKwrvL4HccBdC0uvT12be6fG12P3d1U7u9Wkvfoq/PM2GeyIeb0Dtcmm/7k2oaawiqQ2Dg==",
-      "path": "xunit.abstractions/2.0.1",
-      "hashPath": "xunit.abstractions.2.0.1.nupkg.sha512"
+      "sha512": "sha512-sv5mGFG6uH056gt+SeymQ3kOf/GnueKe5Ayz/gOgAsD9P/gT1HfHq2i7d9B2zOAVbgL/kQdq0S9rvBryYvAYyQ==",
+      "path": "xunit.abstractions/2.0.2",
+      "hashPath": "xunit.abstractions.2.0.2.nupkg.sha512"
     },
-    "xunit.analyzers/0.7.0": {
+    "xunit.assert/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pEjPJ/pd+r9blGBJ9bXg961phkAiCl4k2DwxwWGEZyYC/7Tb1xJ1az0H18uGANX7zFIkvE5ZO1eZZ4vU7gny7w==",
-      "path": "xunit.analyzers/0.7.0",
-      "hashPath": "xunit.analyzers.0.7.0.nupkg.sha512"
+      "sha512": "sha512-OZ1HADp3tv48wK+mPxdOr4kYPn3Y1RACYCWkX0IogKIyZ8fwLeLspVk9KdHfhqXGITnTvlMcOw6PmdRAwrUreQ==",
+      "path": "xunit.assert/2.2.0",
+      "hashPath": "xunit.assert.2.2.0.nupkg.sha512"
     },
-    "xunit.assert/2.3.1": {
+    "xunit.core/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+mUMp3aJOS0ag3qJ2tUhVa930KhwjyypxXT4Ab8lQozEQN8/xgkblQnYs0woIWpr2NbzEOxsZojytl9NBVRKxg==",
-      "path": "xunit.assert/2.3.1",
-      "hashPath": "xunit.assert.2.3.1.nupkg.sha512"
+      "sha512": "sha512-wuGOHofSt4sR/ros6N6S8FI2L9uuP5YsbcxM2kXpcRplMoY1pSgfEZaIRZm3NqDL/JJ/FHEksTEYkvxpc9H4Rw==",
+      "path": "xunit.core/2.2.0",
+      "hashPath": "xunit.core.2.2.0.nupkg.sha512"
     },
-    "xunit.core/2.3.1": {
+    "xunit.extensibility.core/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LOG4qOFuVQcjYcIuZbKeo03Uvng3lSb2gZJU9ANljwCf+PTd//iAMZS5qcJQZrjhndc4aOUlJGQy5wa0+/iZ6w==",
-      "path": "xunit.core/2.3.1",
-      "hashPath": "xunit.core.2.3.1.nupkg.sha512"
+      "sha512": "sha512-2bT3sG8obWbRm45NewcV+Sr2K1whj88LnjQT7szJx1DcydgKR86ggV5rIZ5NccCWo2ctZMRb0QMYttVrhrG9Gw==",
+      "path": "xunit.extensibility.core/2.2.0",
+      "hashPath": "xunit.extensibility.core.2.2.0.nupkg.sha512"
     },
-    "xunit.extensibility.core/2.3.1": {
+    "xunit.extensibility.execution/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1mgYqXeQfU+7zcSRW8/5Uf1jVZ5+5WELmi+BuRTh0xu/x0Q0gK0SuR3FLUF4BSd8sfZzvrRUrhWj3ltpyFxhrg==",
-      "path": "xunit.extensibility.core/2.3.1",
-      "hashPath": "xunit.extensibility.core.2.3.1.nupkg.sha512"
+      "sha512": "sha512-4gjTrSUd/F6/pdsMsf+a1f1tcaUQnr59JvZQulmF8VwQbCh34ifie3iqriYyKyLmTQDUEJ/ZTPeZEDh0pxpTLA==",
+      "path": "xunit.extensibility.execution/2.2.0",
+      "hashPath": "xunit.extensibility.execution.2.2.0.nupkg.sha512"
     },
-    "xunit.extensibility.execution/2.3.1": {
+    "xunit.MSBuild/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-i8xrHfKC5dyBWQ7I15FePzm0m8KNToBsTleCCQbOQuXRPZIvupd4nnfaCPeJuKHHe7yJ8JGtWxjIgw0ow/cMhg==",
-      "path": "xunit.extensibility.execution/2.3.1",
-      "hashPath": "xunit.extensibility.execution.2.3.1.nupkg.sha512"
+      "sha512": "sha512-qNdf4ZbXfUv1l1KjKiCDvL+XdKV38BrG2ao31JdhGE1n/bVDmlVyFYDEKCohxd7l1WFfmoDz1k1N+Sm2gxoMvA==",
+      "path": "xunit.msbuild/2.0.0",
+      "hashPath": "xunit.msbuild.2.0.0.nupkg.sha512"
     },
-    "xunit.runner.visualstudio/2.4.0": {
+    "xunit.runner.visualstudio/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-spS399J48cRVHJL4BRPT3FXBlINlJ6hh9f/8VfgkPRVjsqTU+CuDxvqsFzdj6++k+HxfFJP0ZPnbnLVNeH8zhQ==",
-      "path": "xunit.runner.visualstudio/2.4.0",
-      "hashPath": "xunit.runner.visualstudio.2.4.0.nupkg.sha512"
+      "sha512": "sha512-CZimTpet23CeI2oXjDtICecAuEJ8Z4xSwNFY2tTKcGfm4IzKBrFmS3yzdqMMdAfiHYUgKlcyefflLOyO9ArKyQ==",
+      "path": "xunit.runner.visualstudio/2.2.0",
+      "hashPath": "xunit.runner.visualstudio.2.2.0.nupkg.sha512"
     },
     "Jobadder/1.0.0": {
       "type": "project",

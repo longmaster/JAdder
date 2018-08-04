@@ -1,4 +1,6 @@
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\Jobadder.Test.deps.json
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\Jobadder.Test.runtimeconfig.json
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\Jobadder.Test.runtimeconfig.dev.json
@@ -12,5 +14,3 @@ K:\Jobadder\Jobadder\JAdder\Jobadder.Test\obj\Release\netcoreapp2.0\Jobadder.Tes
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\obj\Release\netcoreapp2.0\Jobadder.Test.AssemblyInfo.cs
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\obj\Release\netcoreapp2.0\Jobadder.Test.dll
 K:\Jobadder\Jobadder\JAdder\Jobadder.Test\obj\Release\netcoreapp2.0\Jobadder.Test.pdb
-K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
-K:\Jobadder\Jobadder\JAdder\Jobadder.Test\bin\Release\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
