@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "96408509fbb9375bed5dcdd2894b11fce3716f75"
+    "signature": "5076e7ee927d0c5c47b525bc744467da14e28ca7"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,8 +12,6 @@
           "Microsoft.NET.Test.Sdk": "15.5.0",
           "Moq": "4.9.0",
           "xunit": "2.2.0",
-          "xunit.MSBuild": "2.0.0",
-          "xunit.abstractions": "2.0.2",
           "xunit.core": "2.2.0",
           "xunit.runner.visualstudio": "2.2.0"
         },
@@ -4441,9 +4439,9 @@
           "xunit.core": "2.2.0"
         }
       },
-      "xunit.abstractions/2.0.2": {
+      "xunit.abstractions/2.0.1": {
         "runtime": {
-          "lib/netstandard2.0/xunit.abstractions.dll": {
+          "lib/netstandard1.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
@@ -4465,7 +4463,7 @@
       },
       "xunit.extensibility.core/2.2.0": {
         "dependencies": {
-          "xunit.abstractions": "2.0.2"
+          "xunit.abstractions": "2.0.1"
         },
         "runtime": {
           "lib/netstandard1.1/xunit.core.dll": {
@@ -4483,11 +4481,6 @@
             "assemblyVersion": "2.2.0.3545",
             "fileVersion": "2.2.0.0"
           }
-        }
-      },
-      "xunit.MSBuild/2.0.0": {
-        "dependencies": {
-          "xunit": "2.2.0"
         }
       },
       "xunit.runner.visualstudio/2.2.0": {
@@ -6765,12 +6758,12 @@
       "path": "xunit/2.2.0",
       "hashPath": "xunit.2.2.0.nupkg.sha512"
     },
-    "xunit.abstractions/2.0.2": {
+    "xunit.abstractions/2.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-sv5mGFG6uH056gt+SeymQ3kOf/GnueKe5Ayz/gOgAsD9P/gT1HfHq2i7d9B2zOAVbgL/kQdq0S9rvBryYvAYyQ==",
-      "path": "xunit.abstractions/2.0.2",
-      "hashPath": "xunit.abstractions.2.0.2.nupkg.sha512"
+      "sha512": "sha512-bDm/zdG5rnRDsobKuKwrvL4HccBdC0uvT12be6fG12P3d1U7u9Wkvfoq/PM2GeyIeb0Dtcmm/7k2oaawiqQ2Dg==",
+      "path": "xunit.abstractions/2.0.1",
+      "hashPath": "xunit.abstractions.2.0.1.nupkg.sha512"
     },
     "xunit.assert/2.2.0": {
       "type": "package",
@@ -6799,13 +6792,6 @@
       "sha512": "sha512-4gjTrSUd/F6/pdsMsf+a1f1tcaUQnr59JvZQulmF8VwQbCh34ifie3iqriYyKyLmTQDUEJ/ZTPeZEDh0pxpTLA==",
       "path": "xunit.extensibility.execution/2.2.0",
       "hashPath": "xunit.extensibility.execution.2.2.0.nupkg.sha512"
-    },
-    "xunit.MSBuild/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qNdf4ZbXfUv1l1KjKiCDvL+XdKV38BrG2ao31JdhGE1n/bVDmlVyFYDEKCohxd7l1WFfmoDz1k1N+Sm2gxoMvA==",
-      "path": "xunit.msbuild/2.0.0",
-      "hashPath": "xunit.msbuild.2.0.0.nupkg.sha512"
     },
     "xunit.runner.visualstudio/2.2.0": {
       "type": "package",
